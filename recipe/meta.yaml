@@ -1,6 +1,6 @@
 {% set name = "async-timeout" %}
-{% set version = "1.2.1" %}
-{% set sha256 = "380e9bfd4c009a14931ffe487499b0906b00b3378bb743542cfd9fbb6d8e4657" %}
+{% set version = "1.4.0" %}
+{% set sha256 = "983891535b1eca6ba82b9df671c8abff53c804fce3fa630058da5bbbda500340" %}
 
 package:
   name: {{ name|lower }}
