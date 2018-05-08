@@ -18,10 +18,10 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.5.3
     - setuptools
   run:
-    - python
+    - python >=3.5.3
 
 test:
   imports:
