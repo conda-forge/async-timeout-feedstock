@@ -14,14 +14,16 @@ Summary: Timeout context manager for asyncio programs
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/async-timeout-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/async-timeout-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/async-timeout-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/async-timeout-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/async-timeout-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/async-timeout-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/async-timeout-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/async-timeout-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/async-timeout-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/async-timeout-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/async-timeout-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/async-timeout-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/async-timeout/badges/version.svg)](https://anaconda.org/conda-forge/async-timeout)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/async-timeout/badges/downloads.svg)](https://anaconda.org/conda-forge/async-timeout)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-async--timeout-green.svg)](https://anaconda.org/conda-forge/async-timeout) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/async-timeout.svg)](https://anaconda.org/conda-forge/async-timeout) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/async-timeout.svg)](https://anaconda.org/conda-forge/async-timeout) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/async-timeout.svg)](https://anaconda.org/conda-forge/async-timeout) |
 
 Installing async-timeout
 ========================
