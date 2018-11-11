@@ -3,7 +3,7 @@ About async-timeout
 
 Home: http://github.com/aio-libs/async_timeout
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: BSD 3-Clause
 
@@ -14,9 +14,8 @@ Summary: Timeout context manager for asyncio programs
 Current build status
 ====================
 
-![Linux disabled](https://img.shields.io/badge/linux-disabled-lightgrey.svg)
-![OSX disabled](https://img.shields.io/badge/OSX-disabled-lightgrey.svg)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/async-timeout-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/async-timeout-feedstock)
 
 Current release info
 ====================
