@@ -11,16 +11,16 @@ source:
   sha256: 0c3c816a028d47f659d6ff5c745cb2acf1f966da1fe5c19c77a70282b25f4c5f
 
 build:
+  noarch: python
   number: 1000
   script: "{{ PYTHON }} -m pip install . -vvv"
-  skip: True  # [py<35]
 
 requirements:
-  build:
-    - python
+  host:
+    - python >=3.5.3
     - pip
   run:
-    - python
+    - python >=3.5.3
 
 test:
   imports:
