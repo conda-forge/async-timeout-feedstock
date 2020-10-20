@@ -1,5 +1,9 @@
-build_number_decrement:
-- '0'
+cdt_name:
+- cos6
+- cos6
+- cos6
+- cos6
+- cos6
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -7,7 +11,5 @@ channel_targets:
 docker_image:
 - condaforge/linux-anvil-comp7
 zip_keys:
-- - channel_sources
-  - channel_targets
+- - cdt_name
   - docker_image
-  - build_number_decrement
