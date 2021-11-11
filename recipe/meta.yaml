@@ -1,5 +1,5 @@
 {% set name = "async-timeout" %}
-{% set version = "4.0.0" %}
+{% set version = "4.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7d87a4e8adba8ededb52e579ce6bc8276985888913620c935094c2276fd83382
+  sha256: b930cb161a39042f9222f6efb7301399c87eeab394727ec5437924a36d6eef51
 
 build:
   number: 0
@@ -35,7 +35,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Timeout context manager for asyncio programs'
+  summary: Timeout context manager for asyncio programs
   dev_url: http://github.com/aio-libs/async_timeout
 
 extra:
